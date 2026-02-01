@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #222;
+}
+
+/* Navigation */
+nav {
+    background: #0a0a0a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 1rem 0;
+}
+
+.btn {
+    background: #fff;
+    color: #000;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+}
+
+.dark {
+    background: #111;
+    color: #fff;
+}
+
+/* Projects */
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    width: 280px;
+    border-radius: 8px;
+}
+
+.dark .card {
+    background: #222;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
